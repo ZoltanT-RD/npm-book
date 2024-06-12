@@ -1,0 +1,14 @@
+{
+  "plugins": ["immutable"],
+  "extends": ["plugin:@typescript-eslint/recommended"],
+
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "immutable/no-let": "off",
+    "immutable/no-this": "warn",
+    "immutable/no-mutation": "warn"
+  },
+  "env": {
+    "jest": true
+  }
+}
