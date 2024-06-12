@@ -128,3 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+lib/postcss-debug-borders.d.ts
+lib/postcss-debug-borders.esm.d.ts
+lib/postcss-debug-borders.esm.js
+lib/postcss-debug-borders.js
